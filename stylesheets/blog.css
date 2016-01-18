@@ -82,12 +82,13 @@ a:hover {
 
 article > p {
   text-align: right;
-  font-size: .6em;
+  font-size: .7em;
   font-family: "Raleway", sans-serif;
-  width: 100px;
+  width: 115px;
   margin-left: 55%;
   border: 1px solid gray;
   padding-right: 5px;
   background-color: #8D9965;
+  font-style: italic;
 
 }
