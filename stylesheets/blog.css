@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+html    {
+    background-color: #9BBABF;
+  }
+
+main > nav{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.45em;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+
+
+  }
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.75em;
+  font-style: italic;
+  color: #731519;
+  text-align: center;
+
+}
+
+h3 {
+  float: left;
+  font-family: "Raleway", sans-serif;
+  font-size: .85em;
+  position: relative;
+  margin-left: 10%;
+  display: inline;
+}
+
+div > nav {
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: .85em;
+  position: relative;
+  margin-right: 10%;
+  display: inline;
+}
+
+#center-links {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.45em;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  }
+
+section {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: .85em;
+  position: static;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align:left;
+  background-color: #8D9965;
+  border: 3px solid gray;
+  padding: 5px
+
+}
+
+footer > nav {
+  position: relative;
+  margin: 300px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: .75em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article > p {
+  text-align: right;
+  font-size: .6em;
+  font-family: "Raleway", sans-serif;
+  width: 100px;
+  margin-left: 55%;
+  border: 1px solid gray;
+  padding-right: 5px;
+  background-color: #8D9965;
+
+}
