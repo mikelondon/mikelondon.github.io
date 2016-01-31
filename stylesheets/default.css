@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
+.wrapper{
+  width: 1026px;
+  margin: 0 auto;
+}
 html    {
     background-color: #9BBABF;
   }
@@ -38,10 +42,12 @@ p {
 }
 
 footer > nav {
-  position: relative;
-  margin: 300px 0 0 0;
-  font-family: "Raleway", sans-serif;
-  font-size: .75em;
+    position: fixed;
+    margin: 500px 10% 0 15%;
+    font-family: "Raleway", sans-serif;
+    font-size: .75em;
+    display: inline-block;
+    clear: both;
 }
 
 a {
