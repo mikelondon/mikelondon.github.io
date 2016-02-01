@@ -3,6 +3,7 @@
 .wrapper{
   width: 1026px;
   margin: 0 auto;
+  background-color: beige;
 }
 html    {
     background-color: #9BBABF;
@@ -16,17 +17,18 @@ img {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.75em;
-  font-style: italic;
+  font-size: 1.60em;
+  font-style: ;
   color: #731519;
 
 }
 
 #center-links {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.30em;
-  margin-left: 25%;
-  margin-right: 25%;
+  font-size: 1.20em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -30px;
   text-align: center;
 
   }
@@ -52,6 +54,7 @@ footer > nav {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
