@@ -3,10 +3,10 @@
 .wrapper{
   width: 1026px;
   margin: 0 auto;
-  background-color: beige;
 }
 html    {
     background-color: #9BBABF;
+    position: relative;
   }
 
 img {
@@ -17,8 +17,7 @@ img {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.60em;
-  font-style: ;
+  font-size: 1.50em;
   color: #731519;
 
 }
@@ -26,10 +25,10 @@ h1 {
 #center-links {
   font-family: 'Raleway', sans-serif;
   font-size: 1.20em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -30px;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
+  display: inline-block;
 
   }
 
@@ -44,8 +43,8 @@ p {
 }
 
 footer > nav {
-    position: fixed;
-    margin: 500px 10% 0 15%;
+    position: absolute;
+    margin: 0;
     font-family: "Raleway", sans-serif;
     font-size: .75em;
     display: inline-block;
@@ -54,7 +53,6 @@ footer > nav {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 a:hover {
