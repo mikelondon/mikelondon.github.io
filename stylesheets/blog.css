@@ -3,13 +3,19 @@
 
 html    {
     background-color: #9BBABF;
+    position
+  }
+
+#wrapper {
+  width: 1024px;
+  margin: 0, auto;
+  background-color: red;
   }
 
 main > nav{
   font-family: 'Raleway', sans-serif;
   font-size: 1.45em;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 0, auto;
   text-align: center;
 
 
@@ -55,6 +61,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: .85em;
   position: static;
+  margin-top: 10px;
   margin-right: 20%;
   margin-left: 20%;
   text-align:left;
@@ -64,9 +71,16 @@ section {
 
 }
 
+
+.contentspage {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
 footer > nav {
   position: relative;
-  margin: 300px 0 0 0;
+  margin: 20px;
   font-family: "Raleway", sans-serif;
   font-size: .75em;
   text-align: center;
