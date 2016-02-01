@@ -2,14 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 html    {
-    background-color: #9BBABF;
-    position
+    background: url("../imgs/gradient2.png");
+    background-position: fixed;
   }
 
 #wrapper {
   width: 1024px;
   margin: 0, auto;
-  background-color: red;
+
   }
 
 main > nav{
@@ -61,7 +61,7 @@ section {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: .85em;
-  position: static;
+  position: relative;
   margin-top: 10px;
   margin-right: 20%;
   margin-left: 20%;
