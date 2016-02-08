@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href='../stylesheets/blog.css' rel='stylesheet' type='text/css'>
+    <title>&#x26F3;Ruby-Classes</title>
+  </head>
+
+<main>
+  <hr>
+
+   <nav class="center-links">
+      <a href="http://mikelondon.github.io/">Home Page</a> |
+      <a href="#">Portfolio</a> |
+      <a href="https://mikelondon.github.io/blog/index.html">Blog</a>
+    </nav>
+
+  <hr>
+
+    <h1> Ruby Classes</h1>
+<hr>
+   <div>
+      <h3>Today's Date: Saturday, February 6, 2016</h3>
+       <nav>
+     <a href="https://www.linkedin.com/in/mikelondon1"><img src="../imgs/social-media/linkedin.png"height="30px" width="30px"></a>
+      <a href="https://twitter.com/mikelondon"><img src="../imgs/social-media/twitter.png"height="30px" width="30px"></a>
+      <a href="https://www.facebook.com/mikelawndawn"><img src="../imgs/social-media/facebook.png"height="30px" width="30px"></a>
+      <a href="https://github.com/mikelondon"><img src="../imgs/social-media/Github.png"height="30px" width="30px"></a>
+      <a href="https://www.instagram.com/mikelondon_/"><img src="../imgs/social-media/Instagram.png"height="30px" width="30px"></a>
+    </nav>
+    </div>
+
+    <section>
+      <p>
+Hi, todays blog entry is going to be on the Ruby class. A class is a way to store information about a particular object regarding various methods, raise an error is something should not happen etc. One of the best uses for classes, is the use of instance variables and how linking them between methods can be invaluable.
+<br><br>
+Like some of my other blog posts, we will create a class that will take in our information like, Name, Age, Height, Weight, and Favorite Sport.
+<br><br>
+We will call this class Self_identity.
+<br><br>
+<p class ="codemarkdown">
+class Self_identity
+  def initialize(name)
+    @name = 'Mike'
+    @age = 23
+    @height = '6 foot 2 inches'
+    @weight = '190lbs'
+    @fav_sport = 'Golf'
+  end
+
+  def name
+    @name
+  end
+
+  def age
+    @age
+  end
+
+  def change_age(new_age)
+    @age = new_age
+  end
+
+  def height
+    @height
+  end
+
+  def change_height(new_height)
+    @height = new_height
+  end
+
+  def weight
+    @weight
+  end
+
+  def change_weight(new_weight)
+    @weight = new_weight
+  end
+
+  def fav_sport
+    @fav_sport
+  end
+
+  def change_fav_sport(new_sport)
+    @fav_sport = new_sport
+  end
+end
+</p>
+<p>This may be confusing to look at, so lets break it down into smaller chunks. We will first look at the first chunk and work our way down.</p>
+
+<p class = "codemarkdown">
+ 1 >> class Self_identity
+  2 >> def initialize(name)
+  3 >>  @name = 'Mike'
+  4 >>  @age = 23
+  5 >>  @height = '6 foot 2 inches'
+  6 >>  @weight = '190lbs'
+  7 >>  @fav_sport = 'Golf'
+  8 >> end
+</p>
+<p>So what is actually going on here. Well first off we are creating a new class on line 1. On lines 2 - 7 we are created what is called the initialize method or what will run when we call a new instance of our class Self_identity. In this case we are assigning instance variables (denoted by the @ sign) to our personal information so we are able to use them between methods.</p>
+
+<p class="codemarkdown">
+
+  1 >> def name
+   2 >>  @name
+  3 >> end
+
+  4 >> def age
+  5 >>   @age
+  6 >> end
+
+  7 >> def height
+  8 >>  @height
+  9 >> end
+
+  10 >> def weight
+   11 >>  @weight
+  12 >> end
+
+
+</p>
+<p> In this section we are defining our methods to our class. For example if we were to call a new instance of our class, and call the method .name or .age, .height, .weight, we would be returned our name and age. </p>
+<p class="codemarkdown">
+  1 >> def change_weight(new_weight)
+   2 >>  @weight = new_weight
+ 3 >>  end
+</p>
+<p>Finally, if we wanted to change the values we initialized we can create a method to where we take in the new value as an argument, and assign that value to the instance variable. This is done above in the box above. Let's say you went on a diet and started exercising more. You probably lost some weight so you will want to change it. We will create a new method to where we modify an instance variable. change_weight takes in the argument new_weight. Then in line two, the instance variable @weight is assigned the value of new_weight.
+  <br><br>
+These are some ways you can implement classes in your programs. They are extremely productive in managing values between methods. Like all things, there are more in depth topics we can cover on the subject classes, however this post is for the beginning programmer. </p>
+
+      </p>
+
+      </section>
+
+      <article>
+        <p>
+          About The Author: Mike London can usually be found on TwitchTv watching Dota 2. @mikelawndawn #AllianceIsBack
+          #kappaRoss
+        </p>
+      </article>
+
+  </main>
+
+  <footer>
+    <hr>
+    <nav>
+     <a href="https://www.linkedin.com/in/mikelondon1"><img src="../imgs/social-media/linkedin.png"height="30px" width="30px"></a>
+      <a href="https://twitter.com/mikelondon"><img src="../imgs/social-media/twitter.png"height="30px" width="30px"></a>
+      <a href="https://www.facebook.com/mikelawndawn"><img src="../imgs/social-media/facebook.png"height="30px" width="30px"></a>
+      <a href="https://github.com/mikelondon"><img src="../imgs/social-media/Github.png"height="30px" width="30px"></a>
+      <a href="https://www.instagram.com/mikelondon_/"><img src="../imgs/social-media/Instagram.png"height="30px" width="30px"></a>
+    </nav>
+  </footer>
+</html>
