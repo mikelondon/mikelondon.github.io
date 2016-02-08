@@ -12,6 +12,17 @@ html    {
 
   }
 
+.codemarkdown {
+  white-space:pre-wrap;
+  text-align: left;
+  font-weight: bold;
+  border:1px solid gray;
+  padding:0.25em;
+  color: black;
+  font-family: monaco;
+  font-size: .9em;
+}
+
 main > nav{
   font-family: 'Raleway', sans-serif;
   font-size: 1.45em;
