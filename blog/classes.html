@@ -49,11 +49,11 @@ class Self_identity
   end
 
   def name
-    @name
+   p  @name
   end
 
   def age
-    @age
+   p  @age
   end
 
   def change_age(new_age)
@@ -61,7 +61,7 @@ class Self_identity
   end
 
   def height
-    @height
+    p @height
   end
 
   def change_height(new_height)
@@ -69,7 +69,7 @@ class Self_identity
   end
 
   def weight
-    @weight
+   p  @weight
   end
 
   def change_weight(new_weight)
@@ -77,11 +77,11 @@ class Self_identity
   end
 
   def fav_sport
-    @fav_sport
+   p  @fav_sport
   end
 
   def change_fav_sport(new_sport)
-    @fav_sport = new_sport
+   p  @fav_sport = new_sport
   end
 end
 </p>
@@ -102,19 +102,19 @@ end
 <p class="codemarkdown">
 
   1 >> def name
-   2 >>  @name
+   2 >> p  @name
   3 >> end
 
   4 >> def age
-  5 >>   @age
+  5 >>  p  @age
   6 >> end
 
   7 >> def height
-  8 >>  @height
+  8 >> p  @height
   9 >> end
 
   10 >> def weight
-   11 >>  @weight
+   11 >> p  @weight
   12 >> end
 
 
@@ -126,8 +126,13 @@ end
  3 >>  end
 </p>
 <p>Finally, if we wanted to change the values we initialized we can create a method to where we take in the new value as an argument, and assign that value to the instance variable. This is done above in the box above. Let's say you went on a diet and started exercising more. You probably lost some weight so you will want to change it. We will create a new method to where we modify an instance variable. change_weight takes in the argument new_weight. Then in line two, the instance variable @weight is assigned the value of new_weight.
-  <br><br>
-These are some ways you can implement classes in your programs. They are extremely productive in managing values between methods. Like all things, there are more in depth topics we can cover on the subject classes, however this post is for the beginning programmer. </p>
+  <p class="codemarkdown">
+    1 >> info = Self_identity.new
+    2 >> info.name
+    3 >> Mike
+  </p>
+  <p> Ok, so we created the class but how do we use it?  If we wanted to create a new instance of the class we created, all we have to do is if type our class name followed by the method .new . This will create a new instance of our class. Assign it to a local variable and we are able to call a method from the class on that local variable. As you can see when we call the method .name on our local variable we are output Mike.</p>
+These are some ways you can implement classes in your programs. They are extremely productive in managing values between methods. Like all things, there are more in depth topics we can cover on the subject classes, however this post is for the beginning rubyist. </p>
 
       </p>
 
