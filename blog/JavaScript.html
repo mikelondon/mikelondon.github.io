@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href='../stylesheets/blog.css' rel='stylesheet' type='text/css'>
+    <title>&#x26F3;Ruby-Classes</title>
+  </head>
+
+<main>
+  <hr>
+
+   <nav class="center-links">
+      <a href="http://mikelondon.github.io/">Home Page</a> |
+      <a href="#">Portfolio</a> |
+      <a href="https://mikelondon.github.io/blog/index.html">Blog</a>
+    </nav>
+
+  <hr>
+
+    <h1> Ruby Hashes vs. JavaScript Objects</h1>
+<hr>
+   <div>
+      <h3>Today's Date: Saturday, February 13, 2016</h3>
+       <nav>
+     <a href="https://www.linkedin.com/in/mikelondon1"><img src="../imgs/social-media/linkedin.png"height="30px" width="30px"></a>
+      <a href="https://twitter.com/mikelondon"><img src="../imgs/social-media/twitter.png"height="30px" width="30px"></a>
+      <a href="https://www.facebook.com/mikelawndawn"><img src="../imgs/social-media/facebook.png"height="30px" width="30px"></a>
+      <a href="https://github.com/mikelondon"><img src="../imgs/social-media/Github.png"height="30px" width="30px"></a>
+      <a href="https://www.instagram.com/mikelondon_/"><img src="../imgs/social-media/Instagram.png"height="30px" width="30px"></a>
+    </nav>
+    </div>
+
+    <section>
+      <p>
+Hi, todays blog entry is going to be on the Ruby hash compared to the Javascript object. A Ruby hash is a container object which is able to store a key, and that key's value in a combined pair. From my post on Hashes - > If we were to create a breakfast variable set equal to a new hash it would look some thing like this breakfast = { }. These curly braces signal a new hash. If we wanted to place some elements inside the hash we would asign a key element which is connected to a value element. So if we wanted to create a breakfast menu with food as the key and whether that food is tasty, healthy, or juicy we would set it up like this:
+      </p>
+<br><br>
+ <img class="center-img" src="../imgs/simple-hash.png" alt="example-hash">
+<br><br>
+ if we wanted to write the same program in JavaScript we would write this.
+ <br><br>
+  <p class="codemarkdown">
+      var breakfast = {
+        bacon: "tasty",
+        eggs: "tasty",
+        oatmeal: "healthy",
+        OJ: "juicy",
+      }
+</p>
+<p>At first they might look similar but you can actaully see that there are some key differences. For one, in JavaScript, defining variables must include the keyword var in front of the variable names. Also, within the object the name does not have to include quotation marks. Only the value of the name must include quotations if that value is a string.
+<br> If we wanted to access the value to one of the pairs inside the object, we must use the following sytax.
+</p>
+<p class="codemarkdown">
+  objectVariable.name will yield -> value
+
+      var breakfast = {
+        bacon: "tasty",
+        eggs: "tasty",
+        oatmeal: "healthy",
+        OJ: "juicy",
+      }
+
+      console.log(breakfast.eggs)
+      >> "tasty"
+  </p>
+  <p> I hope this was simple and easy to understand. I hope now you understand a little more between objects in JavaScript and Hashes in Ruby.</p>
+      </section>
+
+      <article>
+        <p>
+          About The Author: Mike London can usually be found on TwitchTv watching Dota 2. @mikelawndawn #AllianceIsBack
+          #kappaRoss
+        </p>
+      </article>
+
+  </main>
+
+  <footer>
+    <hr>
+    <nav>
+     <a href="https://www.linkedin.com/in/mikelondon1"><img src="../imgs/social-media/linkedin.png"height="30px" width="30px"></a>
+      <a href="https://twitter.com/mikelondon"><img src="../imgs/social-media/twitter.png"height="30px" width="30px"></a>
+      <a href="https://www.facebook.com/mikelawndawn"><img src="../imgs/social-media/facebook.png"height="30px" width="30px"></a>
+      <a href="https://github.com/mikelondon"><img src="../imgs/social-media/Github.png"height="30px" width="30px"></a>
+      <a href="https://www.instagram.com/mikelondon_/"><img src="../imgs/social-media/Instagram.png"height="30px" width="30px"></a>
+    </nav>
+  </footer>
+</html>
