@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 html    {
-    background: url("../imgs/gradient2.png");
+    background: url("../imgs/gradient2.png") no-repeat center center fixed;
     background-position: fixed;
   };
 
