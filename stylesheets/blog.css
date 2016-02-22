@@ -118,3 +118,13 @@ article > p {
   font-style: italic;
 
 }
+
+.box {
+  /*background-color: blue;*/
+  position: relative;
+  text-align: center;
+  width: 20px;
+  border: 1px solid black;
+  font-size: 1em;
+  padding: 1em;
+}

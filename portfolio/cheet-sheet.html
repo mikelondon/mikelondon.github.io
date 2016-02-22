@@ -34,7 +34,56 @@
       <p>
     Hi There, As We are coming closer to the start of Onsite, I wanted to put together a cheat sheet for the basics of ruby. I come from an athletic background, and one of the key things in getting better at a sport is to master the basics or fundamentals. Great fundamentals will always triumpth over raw ability. You must fine tune that raw ability to become a proficient coder.
       </p>
+    <p>This may seem like a waste of time, but I truly believe that understanding the basic fundamentals will help when trying to break down more complex chunky code.</p>
+    <p>We will cover 4 topics:
+      <ol>
+        <li>Variables</li>
+        <li>Methods</li>
+        <li>Containers</li>
+        <li>Iteration</li>
+    </ol>
+  </p>
+  <div>
+    <span>Variables - When Working with a Variable,keep it all lower case as well as using the assignment operator (=)
+      <div class="codemarkdown">variable = object</div></span>
+    <span>Methods -When working with methods, remember to define them with the def keyword, as well as ending the method definitions plus ending any iterations / conditionals.
+      <div class="codemarkdown">
+        def method_name()
+        code block
+        end
+    </div></span>
+    <span>Arrays + Hashes - When working with the two container objects make sure to close either the brackets, or braces.
+     <div class = "codemarkdown">
+        sample_array = [] or Array.new
+        sample_hash =  {} or Hash.new
+    </div></span>
+    <span> Iterations - When working with iterations over containers, remember to close the braces when not working with a do end iteration.
+      <div class="codemarkdown">
+      sample_array = [1,2,3,4,5]
 
+      sample_array.each do |num|
+        puts num * num
+      end
+
+      sample_array.each {|num| puts num * num}
+      </div></span>
+      <span>Here is an example or another iteration more complex but still pretty straight forward.<div class = "codemarkdown">
+      def super_fizzbuzz(num_array)
+        num_array.map do |number|
+          if number % 3 == 0 && number % 5 == 0
+            number = "FizzBuzz"
+          elsif number % 3 == 0
+            number = "Fizz"
+          elsif number % 5 == 0
+            number = "Buzz"
+          else
+            p number
+          end
+        end
+      end</div></span>
+      <div> This is a combination of all the points made above. Hopefully These simple practices can really help out solidifying some of the basics in Ruby. </div>
+      </span>
+  </div>
     </section>
 
   </main>
