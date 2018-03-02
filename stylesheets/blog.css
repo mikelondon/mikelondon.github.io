@@ -1,10 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
-html    {
-    background: url("../imgs/gradient2.png") no-repeat center center fixed;
-    background-position: fixed;
-  }
 
 #wrapper {
   width: 1024px;
